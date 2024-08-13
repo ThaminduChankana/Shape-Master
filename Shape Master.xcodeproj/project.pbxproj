@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20A8D682C15A96F00CADEFF /* rectangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D542C15A96F00CADEFF /* rectangle.mp3 */; };
+		E20A8D692C15A96F00CADEFF /* hexagon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D552C15A96F00CADEFF /* hexagon.mp3 */; };
+		E20A8D6A2C15A96F00CADEFF /* square.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D562C15A96F00CADEFF /* square.mp3 */; };
+		E20A8D6B2C15A96F00CADEFF /* star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D572C15A96F00CADEFF /* star.mp3 */; };
+		E20A8D6C2C15A96F00CADEFF /* cone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D582C15A96F00CADEFF /* cone.mp3 */; };
+		E20A8D6D2C15A96F00CADEFF /* heptagon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D592C15A96F00CADEFF /* heptagon.mp3 */; };
+		E20A8D6E2C15A96F00CADEFF /* pentagon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5A2C15A96F00CADEFF /* pentagon.mp3 */; };
+		E20A8D6F2C15A96F00CADEFF /* triangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5B2C15A96F00CADEFF /* triangle.mp3 */; };
+		E20A8D702C15A96F00CADEFF /* rhombus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5C2C15A96F00CADEFF /* rhombus.mp3 */; };
+		E20A8D712C15A96F00CADEFF /* heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5D2C15A96F00CADEFF /* heart.mp3 */; };
+		E20A8D722C15A96F00CADEFF /* trapezoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5E2C15A96F00CADEFF /* trapezoid.mp3 */; };
+		E20A8D732C15A96F00CADEFF /* ellipse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D5F2C15A96F00CADEFF /* ellipse.mp3 */; };
+		E20A8D742C15A96F00CADEFF /* parallelogram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D602C15A96F00CADEFF /* parallelogram.mp3 */; };
+		E20A8D752C15A96F00CADEFF /* circle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D612C15A96F00CADEFF /* circle.mp3 */; };
+		E20A8D762C15A96F00CADEFF /* decagon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D622C15A96F00CADEFF /* decagon.mp3 */; };
+		E20A8D772C15A96F00CADEFF /* rectangle prism.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D632C15A96F00CADEFF /* rectangle prism.mp3 */; };
+		E20A8D782C15A96F00CADEFF /* cylinder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D642C15A96F00CADEFF /* cylinder.mp3 */; };
+		E20A8D792C15A96F00CADEFF /* octagon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D652C15A96F00CADEFF /* octagon.mp3 */; };
+		E20A8D7A2C15A96F00CADEFF /* right triangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D662C15A96F00CADEFF /* right triangle.mp3 */; };
+		E20A8D7B2C15A96F00CADEFF /* cube.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E20A8D672C15A96F00CADEFF /* cube.mp3 */; };
+		E29D2CAF2C1369E100085D4A /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E29D2CAE2C1369E100085D4A /* background.mp3 */; };
+		E2D222F62C131C9100027B4A /* ShapeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D222F52C131C9100027B4A /* ShapeGameView.swift */; };
+		E2D222F82C131E2E00027B4A /* failure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2D222F72C131E2E00027B4A /* failure.mp3 */; };
+		E2D222FA2C131E3500027B4A /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2D222F92C131E3500027B4A /* success.mp3 */; };
+		E2F933802C12EAF20082AD6D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E2F9337F2C12EAF20082AD6D /* RealityKitContent */; };
+		E2F933822C12EAF20082AD6D /* Shape_MasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F933812C12EAF20082AD6D /* Shape_MasterApp.swift */; };
+		E2F933842C12EAF20082AD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F933832C12EAF20082AD6D /* ContentView.swift */; };
+		E2F933862C12EAF20082AD6D /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F933852C12EAF20082AD6D /* ImmersiveView.swift */; };
+		E2F933882C12EAF30082AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F933872C12EAF30082AD6D /* Assets.xcassets */; };
+		E2F9338B2C12EAF30082AD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F9338A2C12EAF30082AD6D /* Preview Assets.xcassets */; };
+		E2F933962C12EAF30082AD6D /* Shape_MasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F933952C12EAF30082AD6D /* Shape_MasterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F933922C12EAF30082AD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F933722C12EAF20082AD6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F933792C12EAF20082AD6D;
+			remoteInfo = "Shape Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E20A8D542C15A96F00CADEFF /* rectangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rectangle.mp3; sourceTree = "<group>"; };
+		E20A8D552C15A96F00CADEFF /* hexagon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hexagon.mp3; sourceTree = "<group>"; };
+		E20A8D562C15A96F00CADEFF /* square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = square.mp3; sourceTree = "<group>"; };
+		E20A8D572C15A96F00CADEFF /* star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = star.mp3; sourceTree = "<group>"; };
+		E20A8D582C15A96F00CADEFF /* cone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cone.mp3; sourceTree = "<group>"; };
+		E20A8D592C15A96F00CADEFF /* heptagon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heptagon.mp3; sourceTree = "<group>"; };
+		E20A8D5A2C15A96F00CADEFF /* pentagon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pentagon.mp3; sourceTree = "<group>"; };
+		E20A8D5B2C15A96F00CADEFF /* triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = triangle.mp3; sourceTree = "<group>"; };
+		E20A8D5C2C15A96F00CADEFF /* rhombus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rhombus.mp3; sourceTree = "<group>"; };
+		E20A8D5D2C15A96F00CADEFF /* heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heart.mp3; sourceTree = "<group>"; };
+		E20A8D5E2C15A96F00CADEFF /* trapezoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trapezoid.mp3; sourceTree = "<group>"; };
+		E20A8D5F2C15A96F00CADEFF /* ellipse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ellipse.mp3; sourceTree = "<group>"; };
+		E20A8D602C15A96F00CADEFF /* parallelogram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = parallelogram.mp3; sourceTree = "<group>"; };
+		E20A8D612C15A96F00CADEFF /* circle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = circle.mp3; sourceTree = "<group>"; };
+		E20A8D622C15A96F00CADEFF /* decagon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = decagon.mp3; sourceTree = "<group>"; };
+		E20A8D632C15A96F00CADEFF /* rectangle prism.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rectangle prism.mp3"; sourceTree = "<group>"; };
+		E20A8D642C15A96F00CADEFF /* cylinder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cylinder.mp3; sourceTree = "<group>"; };
+		E20A8D652C15A96F00CADEFF /* octagon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = octagon.mp3; sourceTree = "<group>"; };
+		E20A8D662C15A96F00CADEFF /* right triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "right triangle.mp3"; sourceTree = "<group>"; };
+		E20A8D672C15A96F00CADEFF /* cube.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cube.mp3; sourceTree = "<group>"; };
+		E29D2CAE2C1369E100085D4A /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		E2D222F52C131C9100027B4A /* ShapeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeGameView.swift; sourceTree = "<group>"; };
+		E2D222F72C131E2E00027B4A /* failure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failure.mp3; sourceTree = "<group>"; };
+		E2D222F92C131E3500027B4A /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		E2F9337A2C12EAF20082AD6D /* Shape Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shape Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F9337E2C12EAF20082AD6D /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		E2F933812C12EAF20082AD6D /* Shape_MasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_MasterApp.swift; sourceTree = "<group>"; };
+		E2F933832C12EAF20082AD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2F933852C12EAF20082AD6D /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		E2F933872C12EAF30082AD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F9338A2C12EAF30082AD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2F9338C2C12EAF30082AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F933912C12EAF30082AD6D /* Shape MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shape MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F933952C12EAF30082AD6D /* Shape_MasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_MasterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F933772C12EAF20082AD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F933802C12EAF20082AD6D /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F9338E2C12EAF30082AD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F933712C12EAF20082AD6D = {
+			isa = PBXGroup;
+			children = (
+				E2F9337C2C12EAF20082AD6D /* Shape Master */,
+				E2F9337D2C12EAF20082AD6D /* Packages */,
+				E2F933942C12EAF30082AD6D /* Shape MasterTests */,
+				E2F9337B2C12EAF20082AD6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F9337B2C12EAF20082AD6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9337A2C12EAF20082AD6D /* Shape Master.app */,
+				E2F933912C12EAF30082AD6D /* Shape MasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F9337C2C12EAF20082AD6D /* Shape Master */ = {
+			isa = PBXGroup;
+			children = (
+				E2F933A62C12F4940082AD6D /* Audio Files */,
+				E2F933812C12EAF20082AD6D /* Shape_MasterApp.swift */,
+				E2F933832C12EAF20082AD6D /* ContentView.swift */,
+				E2F933852C12EAF20082AD6D /* ImmersiveView.swift */,
+				E2F933872C12EAF30082AD6D /* Assets.xcassets */,
+				E2F9338C2C12EAF30082AD6D /* Info.plist */,
+				E2F933892C12EAF30082AD6D /* Preview Content */,
+				E2D222F52C131C9100027B4A /* ShapeGameView.swift */,
+			);
+			path = "Shape Master";
+			sourceTree = "<group>";
+		};
+		E2F9337D2C12EAF20082AD6D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9337E2C12EAF20082AD6D /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		E2F933892C12EAF30082AD6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2F9338A2C12EAF30082AD6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2F933942C12EAF30082AD6D /* Shape MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F933952C12EAF30082AD6D /* Shape_MasterTests.swift */,
+			);
+			path = "Shape MasterTests";
+			sourceTree = "<group>";
+		};
+		E2F933A62C12F4940082AD6D /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20A8D612C15A96F00CADEFF /* circle.mp3 */,
+				E20A8D582C15A96F00CADEFF /* cone.mp3 */,
+				E20A8D672C15A96F00CADEFF /* cube.mp3 */,
+				E20A8D642C15A96F00CADEFF /* cylinder.mp3 */,
+				E20A8D622C15A96F00CADEFF /* decagon.mp3 */,
+				E20A8D5F2C15A96F00CADEFF /* ellipse.mp3 */,
+				E20A8D5D2C15A96F00CADEFF /* heart.mp3 */,
+				E20A8D592C15A96F00CADEFF /* heptagon.mp3 */,
+				E20A8D552C15A96F00CADEFF /* hexagon.mp3 */,
+				E20A8D652C15A96F00CADEFF /* octagon.mp3 */,
+				E20A8D602C15A96F00CADEFF /* parallelogram.mp3 */,
+				E20A8D5A2C15A96F00CADEFF /* pentagon.mp3 */,
+				E20A8D632C15A96F00CADEFF /* rectangle prism.mp3 */,
+				E20A8D542C15A96F00CADEFF /* rectangle.mp3 */,
+				E20A8D5C2C15A96F00CADEFF /* rhombus.mp3 */,
+				E20A8D662C15A96F00CADEFF /* right triangle.mp3 */,
+				E20A8D562C15A96F00CADEFF /* square.mp3 */,
+				E20A8D572C15A96F00CADEFF /* star.mp3 */,
+				E20A8D5E2C15A96F00CADEFF /* trapezoid.mp3 */,
+				E20A8D5B2C15A96F00CADEFF /* triangle.mp3 */,
+				E2D222F92C131E3500027B4A /* success.mp3 */,
+				E29D2CAE2C1369E100085D4A /* background.mp3 */,
+				E2D222F72C131E2E00027B4A /* failure.mp3 */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F933792C12EAF20082AD6D /* Shape Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F933992C12EAF30082AD6D /* Build configuration list for PBXNativeTarget "Shape Master" */;
+			buildPhases = (
+				E2F933762C12EAF20082AD6D /* Sources */,
+				E2F933772C12EAF20082AD6D /* Frameworks */,
+				E2F933782C12EAF20082AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shape Master";
+			packageProductDependencies = (
+				E2F9337F2C12EAF20082AD6D /* RealityKitContent */,
+			);
+			productName = "Shape Master";
+			productReference = E2F9337A2C12EAF20082AD6D /* Shape Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F933902C12EAF30082AD6D /* Shape MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F9339C2C12EAF30082AD6D /* Build configuration list for PBXNativeTarget "Shape MasterTests" */;
+			buildPhases = (
+				E2F9338D2C12EAF30082AD6D /* Sources */,
+				E2F9338E2C12EAF30082AD6D /* Frameworks */,
+				E2F9338F2C12EAF30082AD6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F933932C12EAF30082AD6D /* PBXTargetDependency */,
+			);
+			name = "Shape MasterTests";
+			productName = "Shape MasterTests";
+			productReference = E2F933912C12EAF30082AD6D /* Shape MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F933722C12EAF20082AD6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E2F933792C12EAF20082AD6D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E2F933902C12EAF30082AD6D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E2F933792C12EAF20082AD6D;
+					};
+				};
+			};
+			buildConfigurationList = E2F933752C12EAF20082AD6D /* Build configuration list for PBXProject "Shape Master" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F933712C12EAF20082AD6D;
+			productRefGroup = E2F9337B2C12EAF20082AD6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F933792C12EAF20082AD6D /* Shape Master */,
+				E2F933902C12EAF30082AD6D /* Shape MasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F933782C12EAF20082AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20A8D682C15A96F00CADEFF /* rectangle.mp3 in Resources */,
+				E20A8D6C2C15A96F00CADEFF /* cone.mp3 in Resources */,
+				E20A8D782C15A96F00CADEFF /* cylinder.mp3 in Resources */,
+				E20A8D6A2C15A96F00CADEFF /* square.mp3 in Resources */,
+				E20A8D7A2C15A96F00CADEFF /* right triangle.mp3 in Resources */,
+				E20A8D6B2C15A96F00CADEFF /* star.mp3 in Resources */,
+				E2D222F82C131E2E00027B4A /* failure.mp3 in Resources */,
+				E20A8D732C15A96F00CADEFF /* ellipse.mp3 in Resources */,
+				E20A8D6D2C15A96F00CADEFF /* heptagon.mp3 in Resources */,
+				E29D2CAF2C1369E100085D4A /* background.mp3 in Resources */,
+				E20A8D742C15A96F00CADEFF /* parallelogram.mp3 in Resources */,
+				E20A8D712C15A96F00CADEFF /* heart.mp3 in Resources */,
+				E20A8D6F2C15A96F00CADEFF /* triangle.mp3 in Resources */,
+				E2D222FA2C131E3500027B4A /* success.mp3 in Resources */,
+				E20A8D692C15A96F00CADEFF /* hexagon.mp3 in Resources */,
+				E20A8D792C15A96F00CADEFF /* octagon.mp3 in Resources */,
+				E20A8D7B2C15A96F00CADEFF /* cube.mp3 in Resources */,
+				E2F9338B2C12EAF30082AD6D /* Preview Assets.xcassets in Resources */,
+				E20A8D702C15A96F00CADEFF /* rhombus.mp3 in Resources */,
+				E20A8D722C15A96F00CADEFF /* trapezoid.mp3 in Resources */,
+				E20A8D6E2C15A96F00CADEFF /* pentagon.mp3 in Resources */,
+				E20A8D752C15A96F00CADEFF /* circle.mp3 in Resources */,
+				E20A8D762C15A96F00CADEFF /* decagon.mp3 in Resources */,
+				E2F933882C12EAF30082AD6D /* Assets.xcassets in Resources */,
+				E20A8D772C15A96F00CADEFF /* rectangle prism.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F9338F2C12EAF30082AD6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F933762C12EAF20082AD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D222F62C131C9100027B4A /* ShapeGameView.swift in Sources */,
+				E2F933842C12EAF20082AD6D /* ContentView.swift in Sources */,
+				E2F933822C12EAF20082AD6D /* Shape_MasterApp.swift in Sources */,
+				E2F933862C12EAF20082AD6D /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F9338D2C12EAF30082AD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F933962C12EAF30082AD6D /* Shape_MasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F933932C12EAF30082AD6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F933792C12EAF20082AD6D /* Shape Master */;
+			targetProxy = E2F933922C12EAF30082AD6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2F933972C12EAF30082AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		E2F933982C12EAF30082AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		E2F9339A2C12EAF30082AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shape Master/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madd.assignment2.part1.Shape-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		E2F9339B2C12EAF30082AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shape Master/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madd.assignment2.part1.Shape-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		E2F9339D2C12EAF30082AD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madd.assignment2.part1.Shape-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shape Master";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		E2F9339E2C12EAF30082AD6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madd.assignment2.part1.Shape-MasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shape Master.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shape Master";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F933752C12EAF20082AD6D /* Build configuration list for PBXProject "Shape Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F933972C12EAF30082AD6D /* Debug */,
+				E2F933982C12EAF30082AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F933992C12EAF30082AD6D /* Build configuration list for PBXNativeTarget "Shape Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F9339A2C12EAF30082AD6D /* Debug */,
+				E2F9339B2C12EAF30082AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F9339C2C12EAF30082AD6D /* Build configuration list for PBXNativeTarget "Shape MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F9339D2C12EAF30082AD6D /* Debug */,
+				E2F9339E2C12EAF30082AD6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2F9337F2C12EAF20082AD6D /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E2F933722C12EAF20082AD6D /* Project object */;
+}
